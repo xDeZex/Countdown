@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jdk-20\bin\java" -Xcomp -cp "C:\Users\User101509\OneDrive - Combitech AB\Documents\Projects\javaprofiler\countdown" Main
