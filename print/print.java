@@ -5,7 +5,6 @@ import java.util.Collection;
 
 public class print {
 
-    //TODO: make recursive returns sb for unlimeted depth collections
     protected int level = 0;
 
     public print (int level) {
@@ -73,7 +72,8 @@ public class print {
                     Object[] arrayTemp = (Object[])array;
                     sb.append("[");
                     for (Object obj: arrayTemp){
-                        sb.append(obj.toString() + ", ");
+                        sb.append(obj.toString());
+                        sb.append(", ");
                     }
                     sb.delete(sb.length() - 2, sb.length());
                     sb.append("]");
@@ -82,7 +82,8 @@ public class print {
                     int[] arrayTemp = (int[])array;
                     sb.append("[");
                     for (int i: arrayTemp){
-                        sb.append(i + ", ");
+                        sb.append(i);
+                        sb.append(", ");
                     }
                     sb.delete(sb.length() - 2, sb.length());
                     sb.append("]");
@@ -91,7 +92,8 @@ public class print {
                     long[] arrayTemp = (long[])array;
                     sb.append("[");
                     for (long i: arrayTemp){
-                        sb.append(i + ", ");
+                        sb.append(i);
+                        sb.append(", ");
                     }
                     sb.delete(sb.length() - 2, sb.length());
                     sb.append("]");
@@ -100,7 +102,8 @@ public class print {
                     double[] arrayTemp = (double[])array;
                     sb.append("[");
                     for (double i: arrayTemp){
-                        sb.append(i + ", ");
+                        sb.append(i);
+                        sb.append(", ");
                     }
                     sb.delete(sb.length() - 2, sb.length());
                     sb.append("]");
@@ -109,7 +112,8 @@ public class print {
                     float[] arrayTemp = (float[])array;
                     sb.append("[");
                     for (float i: arrayTemp){
-                        sb.append(i + ", ");
+                        sb.append(i);
+                        sb.append(", ");
                     }
                     sb.delete(sb.length() - 2, sb.length());
                     sb.append("]");
@@ -118,7 +122,8 @@ public class print {
                     boolean[] arrayTemp = (boolean[])array;
                     sb.append("[");
                     for (boolean i: arrayTemp){
-                        sb.append(i + ", ");
+                        sb.append(i);
+                        sb.append(", ");
                     }
                     sb.delete(sb.length() - 2, sb.length());
                     sb.append("]");
@@ -127,7 +132,8 @@ public class print {
                     char[] arrayTemp = (char[])array;
                     sb.append("[");
                     for (char i: arrayTemp){
-                        sb.append(i + ", ");
+                        sb.append(i);
+                        sb.append(", ");
                     }
                     sb.delete(sb.length() - 2, sb.length());
                     sb.append("]");
@@ -136,7 +142,8 @@ public class print {
                     byte[] arrayTemp = (byte[])array;
                     sb.append("[");
                     for (byte i: arrayTemp){
-                        sb.append(i + ", ");
+                        sb.append(i);
+                        sb.append(", ");
                     }
                     sb.delete(sb.length() - 2, sb.length());
                     sb.append("]");
@@ -145,7 +152,8 @@ public class print {
                     short[] arrayTemp = (short[])array;
                     sb.append("[");
                     for (short i: arrayTemp){
-                        sb.append(i + ", ");
+                        sb.append(i);
+                        sb.append(", ");
                     }
                     sb.delete(sb.length() - 2, sb.length());
                     sb.append("]");
